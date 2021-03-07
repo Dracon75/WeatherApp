@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3">Weather Board</h1>
+        <p class="lead">Welcome to your weekly weather forecast!</p>
+        <p id="currentDay" class="lead"></p>
+    </header>
+    <main class="container">
+        <div class="row justify-content-center">
+        </div>
+        <br>
+        <div class="row justify-content-center flex-container">
+            <div>
+                <form id="search-form" method="POST">
+                    <h2>Location</h2>
+                    <label for="search-text">Where do you live?</label>
+                    <button type="submit">Submit</button>
+                    <p id="log"></p>
+                    <input type="text" placeholder="Search..." name="search-text" id="cityInput" />
+                </form>
+            </div>
+            <br>
+            <div class="row flex-container" id="widget">
+                <div id="current">
+                    <h3>Current Weather</h3>
+                    <p id="name">name</p>
+                    <div>
+                        <i id="main" class=" "></i><br>
+                    </div><br>
+                    <p id="temp">temp</p>
+                    <p id="humidity">humidity</p>
+                    <p id="wind-speed">wind-speed</p>
+                    <p id="uv-index">uv-index</p>
+                </div><br>
+            </div>
+
+            <div class="row flex-container" id="widget">
+                <div id="future">
+                    <h3>Five Day Forecast</h3>
+
+                    <div id="day-2">
+                        <p>Tommorow</p>
+                        <p id="newNameDay2">name</p>
+                        <div>
+                            <i id="newMainDay2" class=" "></i><br>
+                        </div><br>
+                        <p id="newTempDay2">temp</p>
+                        <p id="newHumidityDay2">humidity</p>
+                        <p id="newWind-speedDay2">wind-speed</p>
+                        <p id="newUv-indexDay2">uv-index</p>
+                    </div><br>
+
+                    <div id="day-3">
+                        <p>Tommorow</p>
+                        <p id="newNameDay3">name</p>
+                        <div>
+                            <i id="newMainDay3" class=" "></i><br>
+                        </div><br>
+                        <p id="newTempDay3">temp</p>
+                        <p id="newHumidityDay3">humidity</p>
+                        <p id="newWind-speedDay3">wind-speed</p>
+                        <p id="newUv-indexDay3">uv-index</p>
+                    </div><br>
+
+                    <div id="day-4">
+                        <p>Tommorow</p>
+                        <p id="newNameDay4">name</p>
+                        <div>
+                            <i id="newMainDay4" class=" "></i><br>
+                        </div><br>
+                        <p id="newTempDay4">temp</p>
+                        <p id="newHumidityDay4">humidity</p>
+                        <p id="newWind-speedDay4">wind-speed</p>
+                        <p id="newUv-indexDay4">uv-index</p>
+                    </div><br>
+
+                    <div id="day-5">
+                        <p>Tommorow</p>
+                        <p id="newNameDay5">name</p>
+                        <div>
+                            <i id="newMainDay5" class=" "></i><br>
+                        </div><br>
+                        <p id="newTempDay5">temp</p>
+                        <p id="newHumidityDay5">humidity</p>
+                        <p id="newWind-speedDay5">wind-speed</p>
+                        <p id="newUv-indexDay5">uv-index</p>
+                    </div><br>
+
+                    
+
+                </div><br>
+            </div>
+
+        </div>
+        <br>
+
+    </main>
+    <footer></footer>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+<script src="script.js"></script>
+
+</html>
