@@ -1,5 +1,16 @@
 # WeatherApp
 
+# Tech Used
+open weather api
+javascript
+css/html
+
+# Description
+an app that tracks the current weather of most any city across the US. The five day forecast is still broken.
+
+# Contact
+nanorth75@gmail.com
+
 ## User Story
 
 ```
