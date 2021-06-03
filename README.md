@@ -7,10 +7,8 @@ javascript
 css/html
 
 # Description
-an app that tracks the current weather of most any city across the US. The five day forecast is still broken.
+an app that shows both a current and five day forecast for most any city across the US.
 
-# Contact
-nanorth75@gmail.com
 
 ## User Story
 
