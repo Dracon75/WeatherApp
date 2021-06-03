@@ -2,9 +2,9 @@
 https://dracon75.github.io/WeatherApp/
 
 # Tech Used
-open weather api
-javascript
-css/html
+open weather map api,
+ javascript,
+ css/html
 
 # Description
 an app that shows both a current and five day forecast for most any city across the US.
