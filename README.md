@@ -10,7 +10,6 @@ css/html
 an app that shows both a current and five day forecast for most any city across the US.
 
 ![Weather Intro](https://user-images.githubusercontent.com/66702094/111892209-b4d49b80-89cf-11eb-985b-8670bbbf876a.png)
-![Weather Data](https://user-images.githubusercontent.com/66702094/111892210-b736f580-89cf-11eb-9a76-ba57360d19a9.png)
 
 ```
 
